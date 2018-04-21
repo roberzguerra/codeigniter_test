@@ -1,0 +1,577 @@
+/* line 3, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 8, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 12, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+body.sticky-footer {
+  margin-bottom: 56px;
+}
+
+/* line 14, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+body.sticky-footer .content-wrapper {
+  min-height: calc(100vh - 56px - 56px);
+}
+
+/* line 19, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+body.fixed-nav {
+  padding-top: 56px;
+}
+
+/* line 23, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+.content-wrapper {
+  min-height: calc(100vh - 56px);
+  padding-top: 1rem;
+}
+
+/* line 29, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 3px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+
+/* line 45, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+/* line 49, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+/* line 52, /home/guerra/projetos/codeigniter_test/application/static/scss/_global.scss */
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+/* line 2, /home/guerra/projetos/codeigniter_test/application/static/scss/_utilities.scss */
+.smaller {
+  font-size: 0.7rem;
+}
+
+/* line 7, /home/guerra/projetos/codeigniter_test/application/static/scss/_utilities.scss */
+.o-hidden {
+  overflow: hidden !important;
+}
+
+/* line 12, /home/guerra/projetos/codeigniter_test/application/static/scss/_utilities.scss */
+.z-0 {
+  z-index: 0;
+}
+
+/* line 16, /home/guerra/projetos/codeigniter_test/application/static/scss/_utilities.scss */
+.z-1 {
+  z-index: 1;
+}
+
+/* line 2, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse {
+  overflow: auto;
+  max-height: 75vh;
+}
+
+/* line 8, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  cursor: pointer;
+}
+
+/* line 14, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
+  float: right;
+  content: '\f107';
+  font-family: 'FontAwesome';
+}
+
+/* line 21, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed:after {
+  content: '\f105';
+}
+
+/* line 24, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level,
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level {
+  padding-left: 0;
+}
+
+/* line 27, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level > li > a,
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level > li > a {
+  display: block;
+  padding: 0.5em 0;
+}
+
+/* line 31, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level > li > a:focus, #mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level > li > a:hover,
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level > li > a:focus,
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level > li > a:hover {
+  text-decoration: none;
+}
+
+/* line 37, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level > li > a {
+  padding-left: 1em;
+}
+
+/* line 40, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level > li > a {
+  padding-left: 2em;
+}
+
+/* line 44, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .sidenav-toggler {
+  display: none;
+}
+
+/* line 48, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link {
+  position: relative;
+  min-width: 45px;
+}
+
+/* line 52, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
+  float: right;
+  width: auto;
+  content: '\f105';
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+/* line 63, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link .indicator {
+  position: absolute;
+  top: 5px;
+  left: 21px;
+  font-size: 10px;
+}
+
+/* line 70, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown.show > .nav-link:after {
+  content: '\f107';
+}
+
+/* line 73, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown .dropdown-menu > .dropdown-item > .dropdown-message {
+  overflow: hidden;
+  max-width: none;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 992px) {
+  /* line 83, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-brand {
+    width: 250px;
+  }
+  /* line 86, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse {
+    overflow: visible;
+    max-height: none;
+  }
+  /* line 90, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 56px;
+  }
+  /* line 101, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item {
+    width: 250px;
+    padding: 0;
+  }
+  /* line 104, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+    padding: 1em;
+  }
+  /* line 107, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+    padding-left: 0;
+    list-style: none;
+  }
+  /* line 113, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li,
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li {
+    width: 250px;
+  }
+  /* line 115, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
+    padding: 1em;
+  }
+  /* line 120, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a {
+    padding-left: 2.75em;
+  }
+  /* line 123, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
+    padding-left: 3.75em;
+  }
+  /* line 129, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link {
+    min-width: 0;
+  }
+  /* line 131, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
+    width: 24px;
+    text-align: center;
+  }
+  /* line 137, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_global.scss */
+  #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown .dropdown-menu > .dropdown-item > .dropdown-message {
+    max-width: 300px;
+  }
+}
+
+/* line 2, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+#mainNav.fixed-top .sidenav-toggler {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  /* line 6, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+  #mainNav.fixed-top .navbar-sidenav {
+    height: calc(100vh - 112px);
+  }
+  /* line 9, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+  #mainNav.fixed-top .sidenav-toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: calc(100vh - 56px);
+  }
+  /* line 21, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+  #mainNav.fixed-top .sidenav-toggler > .nav-item {
+    width: 250px;
+    padding: 0;
+  }
+  /* line 24, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+  #mainNav.fixed-top .sidenav-toggler > .nav-item > .nav-link {
+    padding: 1em;
+  }
+}
+
+/* line 31, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+#mainNav.fixed-top.navbar-dark .sidenav-toggler {
+  background-color: #212529;
+}
+
+/* line 34, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+#mainNav.fixed-top.navbar-dark .sidenav-toggler a i {
+  color: #adb5bd;
+}
+
+/* line 41, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+#mainNav.fixed-top.navbar-light .sidenav-toggler {
+  background-color: #dee2e6;
+}
+
+/* line 44, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+#mainNav.fixed-top.navbar-light .sidenav-toggler a i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 54, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
+  overflow-x: hidden;
+  width: 55px;
+}
+
+/* line 58, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler .nav-item,
+body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler .nav-link {
+  width: 55px !important;
+}
+
+/* line 64, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_fixed.scss */
+body.sidenav-toggled #mainNav.fixed-top #sidenavToggler i {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: 'FlipH';
+}
+
+/* line 2, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_static.scss */
+#mainNav.static-top .sidenav-toggler {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  /* line 6, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_static.scss */
+  #mainNav.static-top .sidenav-toggler {
+    display: flex;
+  }
+}
+
+/* line 15, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_static.scss */
+body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: 'FlipH';
+}
+
+/* line 1, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+.content-wrapper {
+  overflow-x: hidden;
+  background: white;
+}
+
+@media (min-width: 992px) {
+  /* line 1, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+  .content-wrapper {
+    margin-left: 250px;
+  }
+}
+
+/* line 12, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+#sidenavToggler i {
+  font-weight: 800;
+}
+
+/* line 17, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+.navbar-sidenav-tooltip.show {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  /* line 22, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+  body.sidenav-toggled .content-wrapper {
+    margin-left: 55px;
+  }
+}
+
+/* line 27, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav {
+  width: 55px;
+}
+
+/* line 29, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav .nav-link-text {
+  display: none;
+}
+
+/* line 32, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav .nav-item,
+body.sidenav-toggled .navbar-sidenav .nav-link {
+  width: 55px !important;
+}
+
+/* line 35, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav .nav-item:after,
+body.sidenav-toggled .navbar-sidenav .nav-link:after {
+  display: none;
+}
+
+/* line 39, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav .nav-item {
+  white-space: nowrap;
+}
+
+/* line 43, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_toggle.scss */
+body.sidenav-toggled .navbar-sidenav-tooltip.show {
+  display: flex;
+}
+
+/* line 6, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
+  color: #868e96;
+}
+
+/* line 10, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+  color: #868e96;
+}
+
+/* line 12, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
+  color: #adb5bd;
+}
+
+/* line 18, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
+  color: #868e96;
+}
+
+/* line 20, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:hover,
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:focus,
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:hover {
+  color: #adb5bd;
+}
+
+/* line 28, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-dark .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
+  color: #adb5bd;
+}
+
+@media (min-width: 992px) {
+  /* line 34, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
+    background: #343a40;
+  }
+  /* line 38, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
+    color: white !important;
+    background-color: #495057;
+  }
+  /* line 41, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a:hover {
+    color: white;
+  }
+  /* line 49, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
+  #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+    background: #343a40;
+  }
+}
+
+/* line 64, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 68, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 70, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 76, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 78, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:focus, #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:hover,
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:focus,
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 86, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+#mainNav.navbar-light .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 992px) {
+  /* line 92, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-light .navbar-collapse .navbar-sidenav {
+    background: #f8f9fa;
+  }
+  /* line 96, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a {
+    color: #000 !important;
+    background-color: #e9ecef;
+  }
+  /* line 99, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a:focus, #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a:hover {
+    color: #000;
+  }
+  /* line 107, /home/guerra/projetos/codeigniter_test/application/static/scss/navbar/_navbar_colors.scss */
+  #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
+  #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+    background: #f8f9fa;
+  }
+}
+
+/* line 3, /home/guerra/projetos/codeigniter_test/application/static/scss/_cards.scss */
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -25px;
+  right: -25px;
+  font-size: 5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+@media (min-width: 576px) {
+  /* line 14, /home/guerra/projetos/codeigniter_test/application/static/scss/_cards.scss */
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 14, /home/guerra/projetos/codeigniter_test/application/static/scss/_cards.scss */
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 14, /home/guerra/projetos/codeigniter_test/application/static/scss/_cards.scss */
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+/* line 1, /home/guerra/projetos/codeigniter_test/application/static/scss/_login.scss */
+.card-login {
+  max-width: 25rem;
+}
+
+/* line 5, /home/guerra/projetos/codeigniter_test/application/static/scss/_login.scss */
+.card-register {
+  max-width: 40rem;
+}
+
+/* line 1, /home/guerra/projetos/codeigniter_test/application/static/scss/_footer.scss */
+footer.sticky-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #e9ecef;
+  line-height: 55px;
+}
+
+@media (min-width: 992px) {
+  /* line 1, /home/guerra/projetos/codeigniter_test/application/static/scss/_footer.scss */
+  footer.sticky-footer {
+    width: calc(100% - 250px);
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 19, /home/guerra/projetos/codeigniter_test/application/static/scss/_footer.scss */
+  body.sidenav-toggled footer.sticky-footer {
+    width: calc(100% - 55px);
+  }
+}
+
+/*# sourceMappingURL=../css/sb-admin.map */
