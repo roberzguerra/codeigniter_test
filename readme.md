@@ -1,6 +1,6 @@
-* Aplicação de testes com Codeigniter 3.1.8.
+# Aplicação de testes com Codeigniter 3.1.8.
 
-** Dump do banco no arquivo *codeigniter_test.sql*:
+* Dump do banco no arquivo *codeigniter_test.sql*:
 
 ```sql
 -- MySQL dump 10.13  Distrib 8.0.11, for Linux (x86_64)
