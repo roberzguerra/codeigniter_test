@@ -58,10 +58,12 @@ class Category_model extends CI_Model {
 		if (!$this->input->post('status')) {
 			$status = 2;
 		}
+		$data_atual = new DateTime();
 
 		$data = array(
 			'name' => $this->input->post('name'),
 			'description' => $this->input->post('description'),
+			'updated_at' => $data_atual->format('Y-m-d H:i:s'),
 			'status' => $status,
 		);
 

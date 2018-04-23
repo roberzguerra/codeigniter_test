@@ -38,8 +38,11 @@ class Product_model extends CI_Model {
 
 	public function update($id)
 	{
+		$data_atual = new DateTime();
+
 		$data = array(
 			'name' => $this->input->post('name'),
+			'updated_at' => $data_atual->format('Y-m-d H:i:s'),
 			'price' => (float) str_replace(',', '.', $this->input->post('price')),
 			'description' => $this->input->post('description'),
 			'category_id' => $this->input->post('category'),
